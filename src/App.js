@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar.jsx';
-import { Bio, Contact, Why, News } from './components/Pages.jsx';
+import { Bio, Contact, Why, News } from './Pages.jsx';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import './App.css';
 
@@ -27,7 +27,7 @@ class App extends React.Component {
             </Switch>
           </main>
           <footer>
-            
+
           </footer>
         </div>
       </Router>
