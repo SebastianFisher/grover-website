@@ -1,25 +1,35 @@
-import logo from './logo.svg';
+import React from 'react';
+import Navbar from './components/Navbar.jsx';
+import { Bio, Contact, Why, News } from './components/Pages.jsx';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <Router>
+        <div id="app">
+          <Navbar logo="Anthony Grover" links={["who_am_i", "why_i_run", "in_the_news", "contact_me"]} />
+          <main>
+            <Switch>
+              <Route path="/why_i_run">
+                <Why />
+              </Route>
+              <Route path="/contact_me">
+                <Contact />
+              </Route>
+              <Route path="/in_the_news">
+                <News />
+              </Route>
+              <Route path="/">
+                <Bio />
+              </Route>
+            </Switch>
+          </main>
+        </div>
+      </Router>
+    )
+  }
 }
 
 export default App;
