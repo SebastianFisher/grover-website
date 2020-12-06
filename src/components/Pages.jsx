@@ -6,7 +6,7 @@ export function Bio(props) {
             <h1>Who Am I?</h1>
             <hr />
             <br />
-            <img src={process.env.PUBLIC_URL + '/images/GroverRunning.jpeg'} alt="Anthony Racing"/>
+            <img src="/images/GroverRunning.jpeg" alt="Anthony Racing"/>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus nulla, sed, harum ex veniam voluptatibus fugit, dignissimos perferendis ullam saepe assumenda. Animi reprehenderit soluta cumque voluptas quidem amet corporis nesciunt?</p>
             <p>Dolorem velit fuga, unde aut dicta sed molestiae magnam nulla ipsam quos eum at pariatur nostrum nesciunt ipsum aliquam porro aspernatur impedit eius quisquam aperiam eos! Quia qui sapiente non.</p>
             <p>Ratione minima facilis natus eos! Explicabo ea autem repellat, velit a nihil dolorem vel minus hic laudantium, quos repellendus, quidem omnis cum iusto officiis excepturi. Asperiores minus eum facilis nisi.</p>
@@ -21,7 +21,7 @@ export function Why(props) {
             <h1>Why I run.</h1>
             <hr />
             <br />
-            <img src={process.env.PUBLIC_URL + '/images/GroverTeam.jpeg'} alt="Anthony And Teammates" />
+            <img src="/images/GroverTeam.jpeg" alt="Anthony And Teammates" />
         </div>
     )
 }
