@@ -1,5 +1,5 @@
-import running from '../images/GroverRunning.jpeg';
-import team from '../images/GroverTeam.jpeg'
+import running from './images/GroverRunning.jpeg';
+import team from './images/GroverTeam.jpeg'
 import './Pages.css';
 
 export function Bio(props) {
