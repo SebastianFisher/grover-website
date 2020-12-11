@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar.jsx';
-import { Bio, Contact, Why, News } from './components/Pages.jsx';
+import { Home, Goals, About, Why, Acknowledgements, Purpose } from './components/Pages.jsx';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import './App.css';
 
@@ -9,20 +9,26 @@ class App extends React.Component {
     return (
       <Router>
         <div id="app">
-          <Navbar logo="Anthony Grover" links={["who_am_i", "why_i_run", "in_the_news", "contact_me"]} />
+          <Navbar logo="Talks With Tony" links={["home", "about", "my_goals", "why_i_run", "purpose", "acknowledgements"]} />
           <main>
             <Switch>
+              <Route path="/about">
+                <About />
+              </Route>
+              <Route path="/my_goals">
+                <Goals />
+              </Route>
               <Route path="/why_i_run">
                 <Why />
               </Route>
-              <Route path="/contact_me">
-                <Contact />
+              <Route path="/purpose">
+                <Purpose />
               </Route>
-              <Route path="/in_the_news">
-                <News />
+              <Route path="/acknowledgements">
+                <Acknowledgements />
               </Route>
               <Route path="/">
-                <Bio />
+                <Home />
               </Route>
             </Switch>
           </main>

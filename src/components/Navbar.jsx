@@ -59,7 +59,7 @@ class Navbar extends React.Component {
                 animation = `navIn 0.5s ease forwards ${index / (numLinks + 4) + 0.3}s`;
             }
             let destination;
-            if (link === 'who_am_i') {
+            if (link === 'home') {
                 destination = './';
             } else {
                 destination = `./${link}`;

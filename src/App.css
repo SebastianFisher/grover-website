@@ -12,6 +12,8 @@ html, body, #root, #app {
 }
 
 main {
-  overflow: auto;
+  overflow: hidden;
   width: 100%;
 }
+
+
