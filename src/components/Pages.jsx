@@ -10,7 +10,7 @@ export function Home(props) {
 
             <p>Sessions will be 15 minutes</p>
             <p>Wednesday-Friday 8, 8:15, 8:30, or 8:45 EST (5-5:45 PST)</p>
-            <p>Email <a href="mailto:talkingwithtony@gmail.com">talkingwithtony@gmail.com</a> with 3 times your available and I will send you a Google Meet or Zoom link</p>
+            <p>Email <a href="mailto:talkswithtony11@gmail.com">talkswithtony11@gmail.com</a> with 3 times your available and I will send you a Google Meet or Zoom link</p>
             <p><strong>Who?</strong> <br />High School runners (all skill levels encouraged) or HS athletes making the transition to college athletics</p>
             <h2>How to Prepare:</h2>
             <ol>
@@ -56,7 +56,7 @@ export function Purpose(props) {
             <hr />
             <br />
             <img src="./images/Purpose.png" alt="Anthony and Coach" />
-            <p>?Reflecting on my upbringing, words cannot express my gratitude. The mentorship and opportunities that were presented to me were amazing. 
+            <p>Reflecting on my upbringing, words cannot express my gratitude. The mentorship and opportunities that were presented to me were amazing. 
             I realize that not everyone has the same exposure to mentors and opportunities. Now, I would love to help those who seek my advice, not only 
             in regards to running, but also to anyone with questions about the transition from HS to collegiate athletics. My goal is to inspire the next 
             generation, help them become goal oriented, and encourage them to never set limits.</p>
