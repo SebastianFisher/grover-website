@@ -10,7 +10,7 @@ export function Home(props) {
 
             <p>Sessions will be 15 minutes</p>
             <p>Wednesday-Friday 8, 8:15, 8:30, or 8:45 EST (5-5:45 PST)</p>
-            <p>Email <a href="mailto:talkingwithtony11@gmail.com">talkingwithtony11@gmail.com</a> with 3 times your available and I will send you a Google Meet or Zoom link</p>
+            <p>Email <a href="mailto:talkingwithtony11@gmail.com">talkingwithtony11@gmail.com</a> with 3 times you're available and I will send you a Google Meet or Zoom link</p>
             <p><strong>Who?</strong> <br />High School runners (all skill levels encouraged) or HS athletes making the transition to college athletics</p>
             <h2>How to Prepare:</h2>
             <ol>
