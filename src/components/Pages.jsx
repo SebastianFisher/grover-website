@@ -17,7 +17,7 @@ export function Home(props) {
                 <em>Come prepared with:</em>
                 <li><span>3 Questions</span></li>
                 <li><span>Your goal for the upcoming season/ a short-term goal</span></li>
-                <li><span>Where you see yourself in ten years/ a long-term goal</span></li>
+                <li><span>Where you see yourself in five years/ a long-term goal</span></li>
             </ol>
             <p>Not sure of a goal?<br />Still schedule a chat, I would be happy to help you make one.</p>
             <h2>What to Expect:</h2>
@@ -39,12 +39,11 @@ export function About(props) {
             <hr />
             <br />
             <img src="./images/About.png" alt="Anthony Golfing" />
-            <p>I began running in 8th grade to prepare for high school basketball. Over time, running became something I love, 
-            and I worked hard to be the best I could be. Through my dedication, I became the first 3-time individual California State champion in Division 4 history. 
-            I was also Footlocker Finalist my junior year and an NXN All-American senior year.</p>
-            <p>Running has taught me the importance of hard work, leadership, and setting attainable goals. I have noticed that there are multiple ways to achieve your goals, 
-            and everyone's path is different.</p>
-            <p>For fun, I enjoy golfing, free diving, skiing, surfing, and being around other people who share my hard-working mindset.</p>
+            <p>I am a first year student-athlete on the Cross Country and Track & Field  teams at Wake Forest University. I was the first 3-time 
+            individual California Cross Country State champion in Division 4 history. I was also a Footlocker Cross Country Finalist my junior 
+            year and an NXN All-American senior year. I’ve worked hard to succeed in both running and academics, and I am determined to make a 
+            positive impact. </p>
+            <p>In my free time, I enjoy golfing, free diving, skiing, surfing, and being around other people who share my hard-working mindset.</p>
         </div>
     )
 }
@@ -73,7 +72,7 @@ export function Goals(props) {
             <img src="./images/MyGoals.png" alt="Anthony Racing" />
             <p><strong>This upcoming track season</strong> at Wake Forest University, I will be attempting 
             to break the four minute barrier in the mile and 14 mins in the 5k.</p>
-            <p><strong>10 years from now, </strong>I see myself running professionally and working at a financial services company with a large global presence.</p>
+            <p><strong>Five years from now, </strong>I see myself running professionally and working at a financial services company with a large global presence.</p>
         </div>
     )
 }
@@ -84,11 +83,11 @@ export function Why(props) {
             <hr />
             <br />
             <img src="./images/Why.png" alt="Anthony and Friends" />
-            <p>I began running for the sole purpose of getting into college. However, that changed as my journey continued. Running has become my escape.
-             It helps me overcome adversity, teaches me how to learn from others and that I am the only person in control of my success, and has allowed me to 
-             create remarkable relationships. I have noticed that the skills required to succeed in running are transferable to all facets of life. Having a 
-             positive attitude, seeking challenges, and being a lifelong learner are essential skills for not just a runner but also for anyone navigating life's journey. 
-             Running allows me to constantly challenge myself and continues to teach me that I can always better myself.</p>
+            <p>When I started getting good at running, I saw it as a way to put myself through school. However, that changed as my journey continued, and running has 
+            become so much more to me. Running is my escape. It helps me overcome adversity, teaches me how to learn from others, shows me I am in control of my own 
+            success, and allows me to create remarkable relationships. The skills I’ve needed to succeed in running have translated to other facets of my life. Having 
+            a positive attitude, seeking challenges, and being a lifelong learner are essential skills that I have developed through running, but which are important 
+            for life in general. Running allows me to constantly challenge myself and reminds me that I can always improve.</p>
         </div>
     )
 }
