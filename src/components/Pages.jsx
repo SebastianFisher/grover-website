@@ -38,12 +38,13 @@ export function About(props) {
             <h1>About Anthony</h1>
             <hr />
             <br />
-            <img src="./images/About.png" alt="Anthony Golfing" />
+
             <p>I am a first year student-athlete on the Cross Country and Track & Field  teams at Wake Forest University. I was the first 3-time 
             individual California Cross Country State champion in Division 4 history. I was also a Footlocker Cross Country Finalist my junior 
             year and an NXN All-American senior year. I’ve worked hard to succeed in both running and academics, and I am determined to make a 
             positive impact. </p>
             <p>In my free time, I enjoy golfing, free diving, skiing, surfing, and being around other people who share my hard-working mindset.</p>
+            <img src="./images/About.png" alt="Anthony Golfing" />
         </div>
     )
 }
